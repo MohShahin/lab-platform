@@ -2,8 +2,8 @@
 // CONFIG — edit these two lines to match where this repo actually lives.
 // ============================================================================
 const CONFIG = {
-  owner: "criticaldata",     // TODO: set to the real GitHub org/user
-  repo: "lab-platform",      // TODO: set to the real repo name
+  owner: "MohShahin",
+  repo: "lab-platform",
   branch: "main",
 };
 
