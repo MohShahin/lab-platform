@@ -1,0 +1,76 @@
+name: Validate authorship claim
+
+# This is the real access-control enforcement for the lab platform.
+# The web app is just a convenience UI — anyone could open a PR by hand,
+# so the check below is what actually stops someone from adding their
+# name to a paper they aren't assigned to. It runs on GitHub's servers,
+# not in the user's browser, so it can't be bypassed from the client.
+
+on:
+  pull_request:
+    paths:
+      - "data/papers.json"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch base version of papers.json
+        run: git show ${{ github.event.pull_request.base.sha }}:data/papers.json > base_papers.json
+
+      - name: Fetch head version of papers.json
+        run: git show ${{ github.event.pull_request.head.sha }}:data/papers.json > head_papers.json
+
+      - name: Fetch users.json (roster, always read from base/main — a PR can't grant itself admin)
+        run: git show ${{ github.event.pull_request.base.sha }}:data/users.json > users.json
+
+      - name: Validate claim
+        id: validate
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: python3 scripts/validate_claim.py base_papers.json head_papers.json users.json "$PR_AUTHOR"
+
+      - name: Comment on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "This PR was closed automatically: it changed more than a single self-claim of authorship, or the requesting user is not on the eligible-authors list for that paper. An admin needs to update `data/papers.json`'s `eligibleAuthors` for this project before you can be added. Ping a lab admin if you believe this is wrong."
+            })
+
+      - name: Close invalid PR
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: "closed"
+            })
+
+      - name: Auto-approve valid self-claim
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              event: "APPROVE",
+              body: "Automated check passed: this only adds the requesting user to a paper they're already listed as an eligible author on. Safe to merge."
+            })

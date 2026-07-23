@@ -1,0 +1,444 @@
+{
+  "_readme": "eligibleAuthors must contain GitHub usernames (matching data/users.json), not display names. Only admins may edit eligibleAuthors (enforced by the GitHub Action in .github/workflows). A member can only add their own name to 'authors' on a paper where their GitHub username is already listed in that paper's eligibleAuthors.",
+  "papers": [
+    {
+      "id": "instruments-of-inquiry-rethinking-clinic",
+      "title": "Instruments of Inquiry: Rethinking Clinical Measurement for the Age of AI",
+      "link": "The Perils of Measuring and the Obsession to Understand:",
+      "venues": [
+        {
+          "venue": "npj",
+          "deadline": "2026-07-31"
+        },
+        {
+          "venue": null,
+          "deadline": "2026-07-15"
+        }
+      ],
+      "finalStatus": "Internal Review",
+      "finalizedLink": null,
+      "submitter": "Mohammad Shahin",
+      "authors": [
+        "Mohammad Shahin"
+      ],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": "Waiting on results from experiment 3"
+    },
+    {
+      "id": "distributed-open-justice-oversight-dojo-",
+      "title": "Distributed Open Justice Oversight (DOJO) A Community-Driven, Modality-Agnostic Platform for Adversarial Evaluation of Health AI",
+      "link": "DOJO_Paper.pdf",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "sakshi-the-witness-we-need-structured-ac",
+      "title": "SAKSHI: The Witness We Need Structured Accountability through Knowledge, Scrutiny, and Health Integrity A Community-Operated Investigative Platform for Applied AI in Health",
+      "link": "SAKSHI_Paper.pdf",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": "Nik",
+      "authors": [
+        "Nik"
+      ],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "ai-sriracha-training-the-next-generation",
+      "title": "AI Sriracha: Training the Next Generation as Double Agents",
+      "link": "AI Sriracha:",
+      "venues": [
+        {
+          "venue": "Lancet",
+          "deadline": null
+        }
+      ],
+      "finalStatus": "Idea",
+      "finalizedLink": "AI-Sriracha-Final.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "bayanihan-a-mandate-for-healing-reclaimi",
+      "title": "Bayanihan, a Mandate for Healing: Reclaiming the Soul of Medicine in the Age of Artificial Intelligence",
+      "link": "mandate_for_healing.docx",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": "mandate_for_healing.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "before-you-build-seven-misconceptions-he",
+      "title": "Before You Build: Seven Misconceptions Health AI Developers Must Confront in Global Public Health",
+      "link": "Before_You_Buildv2.docx",
+      "venues": [
+        {
+          "venue": "PLOS Global Public Health",
+          "deadline": null
+        }
+      ],
+      "finalStatus": "Under Review",
+      "finalizedLink": "Submitted as DOCX to OSF",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "humans-will-only-succeed-if-we-design-ai",
+      "title": "Humans Will Only Succeed If We Design AI to Make Us More Human",
+      "link": "Humans Will Only Succeed If We Design AI to Make Us More Human",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "lleome-your-ai-mentor-woven-from-many-vo",
+      "title": "LLeoMe: Your AI Mentor Woven from Many Voices",
+      "link": "LLeoMe: Your AI Mentor Woven from Many Voices",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "pluralism-as-virtue-signalling",
+      "title": "Pluralism as Virtue Signalling",
+      "link": "Pluralism_as_Virtue_Signalling_Manuscript.docx",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": "Pluralism.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "scholarship-in-the-age-of-ai-whose-frame",
+      "title": "Scholarship in the Age of AI: Whose Frameworks, Whose Futures?",
+      "link": "scholarship_in_age_of_AI.docx",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-bulldozing-has-begun-and-we-are-rear",
+      "title": "The Bulldozing Has Begun and We Are Rearranging the Furniture",
+      "link": "The Bulldozing Has Begun and We Are Rearranging the Furniture",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-dangerous-folly-of-banning-ai-in-hig",
+      "title": "The Dangerous Folly of Banning AI in High Schools",
+      "link": "The Dangerous Folly of Banning AI in High Schools",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-mandate-for-hope-embrace-the-madruga",
+      "title": "The Mandate for Hope: Embrace the Madrugada",
+      "link": "The Mandate for Hope: Embrace the Madrugada",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-oracle-in-your-pocket-how-artificial",
+      "title": "The Oracle in Your Pocket: How Artificial Intelligence May Amplify the Dunning\u2013Kruger Effect and Why Epistemic Humility Matters",
+      "link": "oracle_in_your_pocket_manuscript.docx",
+      "venues": [
+        {
+          "venue": "Science or Nature",
+          "deadline": null
+        }
+      ],
+      "finalStatus": "Idea",
+      "finalizedLink": "oracle_in_your_pocket.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-provenance-of-foundation-models-towa",
+      "title": "The Provenance of Foundation Models: Toward a Model Card That Demands Understanding",
+      "link": "The Provenance of Foundation Models: Toward a Model Card That Demands Understanding",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": "Provenance-Final.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-science-without-makeup-storytelling-",
+      "title": "The Science Without Makeup: Storytelling, Provenance, and the Radical Rebooting of Scientific Rigor in the Age of AI",
+      "link": "science_without_makeup_manuscript.docx",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": "Science_Without_Makeup.pdf",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-uncertainty-of-uncertainty-bounds-wh",
+      "title": "The Uncertainty of Uncertainty Bounds: Why Healthcare AI Requires Human Evolution, Not Just Better Algorithms",
+      "link": "The Uncertainty of Uncertainty Bounds: Why Healthcare AI Requires Human Evolution, Not Just Better Algorithms",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "there-s-something-new-under-the-sun",
+      "title": "There's Something New Under the Sun",
+      "link": "There's Something New Under the Sun",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "centennial-reflections-of-academia-s-pub",
+      "title": "Centennial Reflections of Academia\u2019s \u2018Publish or Perish\u2019 Culture",
+      "link": "Publish_Or_Perish_Manuscript.pdf",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "waking-from-the-trance-a-revolution-of-m",
+      "title": "Waking from the Trance: A Revolution of Mindset in the Age of AI",
+      "link": "Waking from the Trance: A Revolution of Mindset in the Age of AI",
+      "venues": [],
+      "finalStatus": "Idea",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-illusion-of-patient-representation-w",
+      "title": "The Illusion of Patient Representation: What Routine Clinical Data Actually Encodes",
+      "link": "State Representation from Non-Uniform Data: A Provenance Problem",
+      "venues": [
+        {
+          "venue": "Nature Machine Intelligence",
+          "deadline": null
+        }
+      ],
+      "finalStatus": "Drafting",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "seeing-harm-at-scale-why-clinical-ai-acc",
+      "title": "Seeing Harm at Scale: Why Clinical AI Accountability Requires New Infrastructure",
+      "link": "Visible Only at Scale: Data, Accountability, and the Architecture of Harm in Clinical AI",
+      "venues": [],
+      "finalStatus": "Internal Review",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "certified-and-unprepared",
+      "title": "Certified and Unprepared",
+      "link": "Certified and Unprepared",
+      "venues": [],
+      "finalStatus": "Drafting",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "resetting-the-compass-toward-human-cente",
+      "title": "Resetting the Compass: Toward Human-Centered AI Design for Older Adults",
+      "link": "Resetting the Compass: Toward Human-Centered AI Design for Older Adults",
+      "venues": [],
+      "finalStatus": "Internal Review",
+      "finalizedLink": "Resetting_the_Compass_revised",
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "agents-catching-agents-detecting-benchma",
+      "title": "AGENTS CATCHING AGENTS: DETECTING BENCHMARK GAMING IN AI SYSTEMS",
+      "link": "Agents catching benchmaxxing agents v1.docx",
+      "venues": [],
+      "finalStatus": "Internal Review",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "mice-in-a-maze-what-medical-education-ge",
+      "title": "Mice in a Maze: What Medical Education Gets Wrong About Intelligence, and Why AI Will Not Fix It",
+      "link": "Mice in a Maze",
+      "venues": [],
+      "finalStatus": "Internal Review",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "seven-years-after-the-ai-clinician-the-u",
+      "title": "Seven Years After the AI Clinician: The Unfinished Promise of Reinforcement Learning in Healthcare",
+      "link": "Seven Years After the AI Clinician: The Unfinished Promise of Reinforcement Learning in Healthcare",
+      "venues": [
+        {
+          "venue": "Nature Medicine",
+          "deadline": "2026-07-31"
+        }
+      ],
+      "finalStatus": "Internal Review",
+      "finalizedLink": null,
+      "submitter": "Mohammad Shahin",
+      "authors": [
+        "Mohammad Shahin"
+      ],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "the-crystal-ball-problem-why-prediction-",
+      "title": "The Crystal Ball Problem: Why Prediction Models Are Not Guaranteed to Improve Health Outcomes",
+      "link": "The Crystal Ball Problem",
+      "venues": [],
+      "finalStatus": "Under Review",
+      "finalizedLink": null,
+      "submitter": "Ryohei",
+      "authors": [
+        "Ryohei"
+      ],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "arcai-a-supervised-multi-agent-architect",
+      "title": "ARCAI: A Supervised Multi-Agent Architecture for Autonomous Clinical Research Orchestration",
+      "link": "ARCAI: A Supervised Multi-Agent Architecture for Autonomous Clinical Research Orchestration",
+      "venues": [],
+      "finalStatus": "Drafting",
+      "finalizedLink": null,
+      "submitter": "Mohammad Shahin",
+      "authors": [
+        "Mohammad Shahin"
+      ],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    },
+    {
+      "id": "sofa-leakage-sepsis-rl-manuscript-draft",
+      "title": "SOFA_Leakage_Sepsis_RL_Manuscript_DRAFT",
+      "link": "SOFA_Leakage_Sepsis_RL_Manuscript_DRAFT",
+      "venues": [
+        {
+          "venue": "BU Health AI",
+          "deadline": "2026-07-31"
+        }
+      ],
+      "finalStatus": "Drafting",
+      "finalizedLink": null,
+      "submitter": null,
+      "authors": [],
+      "eligibleAuthors": [],
+      "priority": "Medium",
+      "notes": null
+    }
+  ]
+}

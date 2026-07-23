@@ -1,0 +1,4 @@
+{
+  "_readme": "Append-only attendance log written by the app when a member clicks 'Join & check in' on the Meetings tab. Each entry is a self-reported check-in tied to the member's real GitHub identity and a server-side commit timestamp (visible in this file's git history), not a cryptographic proof of Zoom presence.",
+  "checkIns": []
+}

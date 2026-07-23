@@ -1,0 +1,13 @@
+{
+  "_readme": "Admin-managed list of upcoming lab meetings. Add a new object for each meeting. zoomLink is what members click to join; the app logs a check-in (their GitHub identity + timestamp) to data/attendance.json when they click 'Join & check in'.",
+  "meetings": [
+    {
+      "id": "weekly-lab-meeting",
+      "title": "Weekly Lab Meeting",
+      "recurring": "Every Thursday",
+      "time": "10:00 AM ET",
+      "zoomLink": "https://mit.zoom.us/REPLACE-WITH-REAL-LINK",
+      "notes": "Standing agenda: paper status round-robin, deadline review, new project pitches."
+    }
+  ]
+}
