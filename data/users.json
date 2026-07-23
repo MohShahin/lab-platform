@@ -1,7 +1,7 @@
 {
-  "_readme": "Admin-only file. Maps each lab member's real GitHub username to their display name and role. 'admin' can manage this file and edit any paper's eligibleAuthors. 'member' can only claim authorship on papers where their username already appears in that paper's eligibleAuthors list (see data/papers.json). Fill in the githubUsername fields below with real GitHub handles before launch — placeholders are marked TODO.",
+  "_readme": "Admin-only file. Maps each lab member's real GitHub username to their display name and role. 'admin' can manage this file and edit any paper's eligibleAuthors. 'member' can only claim authorship on papers where their username already appears in that paper's eligibleAuthors list (see data/papers.json). Fill in the remaining githubUsername fields with real GitHub handles before launch — placeholders are marked TODO.",
   "members": [
-    { "githubUsername": "TODO-mohammad-github-handle", "displayName": "Mohammad Shahin", "role": "admin" },
+    { "githubUsername": "MohShahin", "displayName": "Mohammad Shahin", "role": "admin" },
     { "githubUsername": "TODO-nik-github-handle", "displayName": "Nik", "role": "member" },
     { "githubUsername": "TODO-ryohei-github-handle", "displayName": "Ryohei", "role": "member" }
   ]

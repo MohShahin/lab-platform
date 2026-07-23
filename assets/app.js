@@ -292,7 +292,7 @@ function paperCard(paper, { showClaim } = { showClaim: false }) {
   card.className = "paper-card" + (dl?.tone === "overdue" ? " is-overdue" : dl?.tone === "soon" ? " is-due-soon" : "");
 
   const venueText = (paper.venues || [])
-    .map(v => `${v.venue || "TBD"}${v.deadline ? ` — due ${v.deadline}` : ""}`)
+    .map(v => `${v.venue || "Additional deadline"}${v.deadline ? ` — due ${v.deadline}` : ""}`)
     .join(" · ") || "No venue set yet";
 
   const authorsText = paper.authors && paper.authors.length ? paper.authors.join(", ") : "Unassigned";
