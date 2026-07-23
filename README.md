@@ -1,6 +1,6 @@
 # Lab of Computational Physiology — Papers & Lab Ops
 
-**Live demo:** https://mohshahin.github.io/lab-platform/ *(live once GitHub Pages is enabled — see Setup step 1 below)*
+**Live demo:** https://mohshahin.github.io/lab-platform/
 
 A GitHub-hosted, GitHub-Pages-served dashboard for the lab's paper tracker, built from
 `Lab_Papers_Drafts_Tracker.xlsx`. It replaces the spreadsheet with something everyone can
